@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+/* @keyframes gradient-x {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 10s ease infinite;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111111;
+  --card-bg: rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="dark"] {
+  --bg-color: #0f172a;
+  --text-color: #f1f5f9;
+  --card-bg: rgba(30, 41, 59, 0.8);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.4s ease, color 0.4s ease;
+} */
+
+/* Light Mode */
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: #0f172a;
+  color: white;
+}
+
+body.dark .card {
+  background-color: #1e293b;
+  color: white;
+}
+
+body.dark nav {
+  background-color: #1e293b;
+}
+/* Light Mode */
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: #0f172a;
+  color: white;
+}
+
+body.dark nav {
+  background-color: rgba(30, 41, 59, 0.8);
+}
+
+body nav {
+  background-color: rgba(255, 255, 255, 0.8);
+}
